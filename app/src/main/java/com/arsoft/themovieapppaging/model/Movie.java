@@ -45,6 +45,7 @@ public class Movie {
     }
 
 
+    
     @Override
     public boolean equals(@Nullable Object o) {
         if (o == null) return false;
