@@ -37,11 +37,16 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:3.0.0")
     implementation("com.squareup.retrofit2:converter-gson:3.0.0")
 
+    // RxJava3 with retrofit
+    implementation "com.squareup.retrofit2:adapter-rxjava3:3.0.0"
+
     // Paging Library
     def paging_version = "3.3.6"
     implementation "androidx.paging:paging-runtime:$paging_version"
     // optional - RxJava3 support
     implementation "androidx.paging:paging-rxjava3:$paging_version"
+
+
 
     // Hilt Dagger
     implementation 'com.google.dagger:hilt-android:2.56.2'
