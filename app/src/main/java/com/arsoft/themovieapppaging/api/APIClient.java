@@ -16,6 +16,10 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 
+/**
+ * Singleton class for creating and managing Retrofit API client
+ * Adds API key automatically to each request using an OkHttp interceptor
+ */
 public class APIClient {
 
     static APIInterface apiInterface;
