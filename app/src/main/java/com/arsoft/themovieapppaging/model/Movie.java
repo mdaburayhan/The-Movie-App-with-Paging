@@ -36,7 +36,7 @@ public class Movie {
         this.posterPath = posterPath;
     }
 
-    public double isVoteAverage() {
+    public double getVoteAverage() {
         return voteAverage;
     }
 
